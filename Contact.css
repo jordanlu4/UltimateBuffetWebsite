@@ -70,16 +70,18 @@
   padding: 0;
 }
 
-/* .u-section-1 .u-image-1 {
-  min-height: 663px;
-  background-image: url("images/pond.png");
+.u-section-1 .u-image-1 {
+  min-height: 500px;
+  max-width: 50%;
+  background-image: url("images/lobby.jpeg");
   background-position: 0% 50%;
   --animation-custom_in-translate_x: 300px;
   --animation-custom_in-translate_y: 0px;
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
-} */
+  margin-right: 10px;
+}
 
 .center {
   position: absolute;

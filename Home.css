@@ -1,3 +1,10 @@
+background {
+  background-color: #f0f0f0; /* Replace this with your desired color code */
+  background-image: url("images/bamboo.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
  .u-section-1 {
   min-height: 801px;
 }
@@ -52,7 +59,7 @@
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 0.875rem;
-  background-image: none;
+  background-image: url("images/bamboo.jpeg");
   text-align: center;
   font-weight: 700;
   border-style: solid;
@@ -71,8 +78,8 @@
 }
 
 .u-section-1 .u-image-1 {
-  min-height: 663px;
-  background-image: url("images/pond.png");
+  min-height: 100x;
+  background-image: url("images/outsideHor.jpg");
   background-position: 0% 50%;
   --animation-custom_in-translate_x: 300px;
   --animation-custom_in-translate_y: 0px;
@@ -473,8 +480,10 @@
 }
 
 .u-section-3 .u-gallery-inner-1 {
+  display: grid;
   grid-template-columns: repeat(4, auto);
   grid-gap: 10px;
+  margin: 20px;
 }
 
 .u-section-3 .u-over-slide-1 {
@@ -548,7 +557,7 @@
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 7px) {
    .u-section-3 {
     min-height: 2849px;
   }
@@ -2092,8 +2101,8 @@
 }
 
 .u-section-9 .u-repeater-1 {
-  grid-template-columns: repeat(3, calc(33.3333% - 17.3333px));
-  min-height: 463px;
+  grid-template-columns: repeat(1, calc(66.6666% - 34.6666px));
+  min-width: 463px;
   grid-gap: 26px;
 }
 
@@ -2102,7 +2111,7 @@
 }
 
 .u-section-9 .u-image-1 {
-  height: 403px;
+  width: 403px;
   margin-top: 0;
   margin-bottom: 0;
 }
